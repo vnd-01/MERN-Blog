@@ -1,0 +1,11 @@
+{
+    "buildCommand": "cd frontend && npm install ",
+    "outputDirectory":"frontend/dist",
+    "framework":"react",
+    "rewrite":[
+        {
+            "source":"/backend/(.*)",
+            "destination":"/backend/index.js"
+        }
+    ]
+}
