@@ -5,7 +5,7 @@
     "rewrite":[
         {
             "source":"/backend/(.*)",
-            "destination":"/backend/index.js"
+            "destination":"/backend/server.js"
         }
     ]
 }
