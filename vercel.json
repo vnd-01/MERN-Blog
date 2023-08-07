@@ -2,7 +2,7 @@
     "buildCommand": "cd frontend && npm install ",
     "outputDirectory":"frontend/dist",
     "framework":"react",
-    "rewrite":[
+    "rewrites":[
         {
             "source":"/backend/(.*)",
             "destination":"/backend/server.js"
